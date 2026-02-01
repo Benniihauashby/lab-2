@@ -1,0 +1,14 @@
+﻿Niihau-Ashby, Benjamin
+Part 1: Warm-up & Program Analysis
+Your Task:
+Answer the following questions (2 pts each):
+1. What will be the exact output for "Result 1"? Why isn't it 2.4?
+   * The Exact output for Result 1 will be a flat two because it will only give a whole number, ignoring the decimal place.
+2. What will be the exact output for "Result 2"? What does the % operator do?
+   * The exact output for Result 2 will be two. This is because it is taking the number remainder out of 12/5. Leaving two as the remainder
+3. What will be the exact output for "Result 3"?
+   * The exact output for Result 3 is 3.33333. This is because it is taking the float / decimal place of the number up to the 6th decimal point.
+4. What will be the exact output for "Result 4"?
+   * 6.3 repeating because the operations in the parenthesis (a + b + c) will be completed before it is divided by 3. Turning it into 19/3 = 6.33333
+5. What will be the exact output for "Result 5"? How does static_cast change the calculation?
+   * The exact output for will be 2.4. Static_cast changes the calculation by transforming the output to become a double data type. Thus including the decimal point in the answer.
